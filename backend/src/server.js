@@ -22,7 +22,7 @@ io.on("connection", (socket)=>{
     console.log("socket id is: ", socket.id);
 });
 
-app.listen(port, ()=>{
+server.listen(port, ()=>{
     console.log(`server is running on port ${port}`);
 });
 
