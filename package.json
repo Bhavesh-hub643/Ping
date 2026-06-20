@@ -16,7 +16,7 @@
   "main": "server.js",
   "scripts": {
     "dev": "concurrently \"npm run dev --prefix backend\" \"npm run dev --prefix frontend\"",
-    "start": "node backend/src/app.js"
+    "start": "node backend/src/index.js"
   },
   "dependencies": {
     "bcryptjs": "^3.0.3",
